@@ -1,7 +1,10 @@
 ---
 title: "Lab 03 - Nobel laureates"
 
-author: "HaoyuanZhu, Tianchang_Lu,Vangeli_Porfyris, Qimiao_Li, Loizos, hello"
+
+author: "Tianchang_Lu, HaoyuanZhu, Vangeli_Porfyris, Qimiao_Li, Theocharous,hello "
+
+
 
 
 date: "`r Sys.Date()`"
@@ -23,7 +26,7 @@ nobel <- read_csv("data/nobel.csv")
 count(nobel)
 #### Narrative
 
-There are 935 observations, and 25 variables and each row represents a different nobel prize, meaning the same person can recieve it twice.
+There are 935 observations, and 25 variables and each row represents a different nobel prize, meaning the same person can receive it twice.
 
 
 ### Exercise 2
