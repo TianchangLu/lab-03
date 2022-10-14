@@ -1,6 +1,8 @@
 ---
 title: "Lab 03 - Nobel laureates"
+
 author: "Tianchang_Lu, HaoyuanZhu,Qimiao_Li,  Vangeli_Porfyris, Loizos"
+
 date: "`r Sys.Date()`"
 output: html_document
 ---
