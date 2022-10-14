@@ -1,7 +1,8 @@
 ---
 title: "Lab 03 - Nobel laureates"
 
-author: "Tianchang_Lu, HaoyuanZhu,Qimiao_Li,  Vangeli_Porfyris, Loizos"
+author: "Tianchang_Lu, HaoyuanZhu, Vangeli_Porfyris, Qimiao_Li, Loizos "
+
 
 date: "`r Sys.Date()`"
 output: html_document
@@ -14,15 +15,15 @@ output: html_document
 library(tidyverse) 
 ```
 
-```{r chunk1, message = FALSE}
+```{r load-data, message = FALSE}
 nobel <- read_csv("data/nobel.csv")
 ```
 
 ### Exercise 1
-
+count(nobel)
 #### Narrative
 
-*Remove this text and add your answer here.*
+There are 935 observations, and 25 variables and each row represents a different nobel prize, meaning the same person can recieve it twice.
 
 
 ### Exercise 2
