@@ -1,14 +1,6 @@
 ---
 title: "Lab 03 - Nobel laureates"
-
-<<<<<<< HEAD
-author: "HaoyuanZhu, Tianchang_Lu,Vangeli_Porfyris, Qimiao_Li, Loizos, hello"
-=======
-
-author: "Tianchang_Lu, HaoyuanZhu, Vangeli_Porfyris, Qimiao_Li, Theocharous "
-
->>>>>>> b1e5738a7333818c83d85429d9f2fe7e19f4756d
-
+author: "Tianchang_Lu, HaoyuanZhu, Vangeli_Porfyris, , Loizos Qimiao_Li"
 
 date: "`r Sys.Date()`"
 output: html_document
@@ -21,7 +13,7 @@ output: html_document
 library(tidyverse) 
 ```
 
-```{r reading-nobel-data, message = FALSE}
+```{r load-data, message = FALSE}
 nobel <- read_csv("data/nobel.csv")
 ```
 
@@ -29,7 +21,7 @@ nobel <- read_csv("data/nobel.csv")
 count(nobel)
 #### Narrative
 
-There are 935 observations, and 25 variables and each row represents a different nobel prize, meaning the same person can receive it twice.
+There are 935 observations, and 25 variables and each row represents a different nobel prize, meaning the same person can recieve it twice.  
 
 
 ### Exercise 2
