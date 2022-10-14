@@ -1,7 +1,7 @@
 ---
 title: "Lab 03 - Nobel laureates"
 
-author: "  Tianchang_Lu,HaoyuanZhu,Vangeli_Porfyris, Qimiao_Li, Loizos, hello"
+author: "HaoyuanZhu, Tianchang_Lu,Vangeli_Porfyris, Qimiao_Li, Loizos, hello"
 
 
 date: "`r Sys.Date()`"
