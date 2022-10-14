@@ -17,10 +17,10 @@ nobel <- read_csv("data/nobel.csv")
 ```
 
 ### Exercise 1
-
+count(nobel)
 #### Narrative
 
-*Remove this text and add your answer here.*
+There are 935 observations, and 25 variables and each row represents a different nobel prize, meaning the same person can recieve it twice.
 
 
 ### Exercise 2
